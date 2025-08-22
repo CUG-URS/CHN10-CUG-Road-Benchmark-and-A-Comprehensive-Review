@@ -54,8 +54,7 @@ https://github.com/zlckanata/DeepGlobe-Road-Extraction-Challenge
 SIINet 2019
 https://github.com/ErenTuring/SIINet
 
-Seg-Orientation 2019  
-https://github.com/anilbatra2185/road_connectivity
+Seg-Orientation 2019  https://github.com/anilbatra2185/road_connectivity
 
 Sat2Graph 2020 
 https://github.com/songtaohe/Sat2Graph
