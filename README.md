@@ -6,9 +6,9 @@ Version 1.0
 
 ## 1.Overview
 Achieving accurate road mapping across large-scale, geographically dispersed areas remains a major challenge in the field of remote sensing. While deep learning has achieved remarkable progress in road extraction in recent years, the continued enhancement of its performance largely depends on the availability of high-quality and diverse training data. However, existing public datasets are limited in diversity, typically including only a few road categories. Moreover, roads and backgrounds in these datasets are often easily distinguishable, failing to reflect real-world challenges such as occlusions, complex backgrounds, and radiation differences in high-resolution remote sensing imagery. These limitations make it difficult to achieve accurate and consistent road mapping at a national scale, especially given the diversity of geographical and urban landscapes. In this paper, we present CHN10-CUG, a new high-resolution remote sensing road dataset that covers roads across 10 representative cities in China. The dataset includes detailed annotations of both road surfaces and centerlines. Compared to existing datasets, CHN10-CUG provides more diverse spectral, textural, geometric, and topological features, making it particularly suitable for multi-task road extraction tasks such as surface segmentation and centerline extraction. Furthermore, this paper presents a systematic review of existing deep learning-based road extraction methods. Specifically, we categorize and describe road methods, then we reproduce and rigorously evaluate 15 widely used semantic segmentation models alongside 23 representative road extraction methods on the CHN10-CUG dataset.
-<img width="709" height="594" alt="image" src="https://github.com/user-attachments/assets/c2b97340-88d4-459e-93f0-7373eec095e9" />
-<img width="709" height="361" alt="image" src="https://github.com/user-attachments/assets/6dd0faab-70cd-4b89-82be-c8d38b3afa01" />
-<img width="709" height="358" alt="image" src="https://github.com/user-attachments/assets/64dfeff5-0618-416a-ba32-6b6074a2bd54" />
+                                                              <img width="709" height="594" alt="image" src="https://github.com/user-attachments/assets/c2b97340-88d4-459e-93f0-7373eec095e9" />
+                                                              <img width="709" height="361" alt="image" src="https://github.com/user-attachments/assets/6dd0faab-70cd-4b89-82be-c8d38b3afa01" />
+                                                              <img width="709" height="358" alt="image" src="https://github.com/user-attachments/assets/64dfeff5-0618-416a-ba32-6b6074a2bd54" />
 
 
 
@@ -38,91 +38,68 @@ We collected typical areas of ten cities in China from [Google Earth](http://ear
 **Please note that we do not own the copyrights to these original satellite images. Their use is RESTRICTED to non-commercial research and educational purposes.**
 
 ### 3.Road review
+
+
 Code：
-mmsegmentation
-https://github.com/open-mmlab/mmsegmentation
 
-DeepRoadMapper 2017 
-https://github.com/mitroadmaps/roadtracer/tree/master/deeproadmapper
+Mmsegmentation https://github.com/open-mmlab/mmsegmentation
 
-Roadtracer 2018 
-https://github.com/mitroadmaps/roadtracer
+DeepRoadMapper 2017 https://github.com/mitroadmaps/roadtracer/tree/master/deeproadmapper
 
-D-LinkNet 2018 
-https://github.com/zlckanata/DeepGlobe-Road-Extraction-Challenge
+Roadtracer 2018 https://github.com/mitroadmaps/roadtracer
 
-SIINet 2019
-https://github.com/ErenTuring/SIINet
+D-LinkNet 2018 https://github.com/zlckanata/DeepGlobe-Road-Extraction-Challenge
 
-Seg-Orientation 2019  https://github.com/anilbatra2185/road_connectivity
+SIINet 2019 https://github.com/ErenTuring/SIINet
 
-Sat2Graph 2020 
-https://github.com/songtaohe/Sat2Graph
+Seg-Orientation 2019 https://github.com/anilbatra2185/road_connectivity
 
-BSNet 2020
-https://github.com/astro-ck/Road-Extraction
+Sat2Graph 2020 https://github.com/songtaohe/Sat2Graph
 
-CoANet 2021
-https://github.com/mj129/CoANet
+BSNet 2020 https://github.com/astro-ck/Road-Extraction
 
-ScRoadExtractor 2021 
-https://github.com/weiyao1996/ScRoadExtractor
+CoANet 2021 https://github.com/mj129/CoANet
 
-DiResNet 2021
-https://github.com/ggsDing/DiResNet
+ScRoadExtractor 2021 https://github.com/weiyao1996/ScRoadExtractor
 
-SGCNNet 2021
-https://github.com/tist0bsc/SGCN
+DiResNet 2021 https://github.com/ggsDing/DiResNet
 
-RNGDet 2022
-https://github.com/TonyXuQAQ/RNGDetPlusPlus
+SGCNNet 2021 https://github.com/tist0bsc/SGCN
 
-RNGDet++ 2023 
-https://github.com/TonyXuQAQ/RNGDetPlusPlus
+RNGDet 2022 https://github.com/TonyXuQAQ/RNGDetPlusPlus
 
-SemiRoadExNet 2023 
-https://github.com/hchen118/SemiRoadExNet
+RNGDet++ 2023 https://github.com/TonyXuQAQ/RNGDetPlusPlus
 
-MCMCNet 2024
-https://github.com/zhouyiqingzz/MCMCNet
+SemiRoadExNet 2023 https://github.com/hchen118/SemiRoadExNet
 
-OARENet 2024
-https://github.com/WanderRainy/OARENet
+MCMCNet 2024 https://github.com/zhouyiqingzz/MCMCNet
 
-MSMDFF-Net 2024 
-https://github.com/wycloveinfall/MSMDFF-NET
+OARENet 2024 https://github.com/WanderRainy/OARENet
 
-SAM-Road 2024
-https://github.com/htcr/sam_road
+MSMDFF-Net 2024 https://github.com/wycloveinfall/MSMDFF-NET
+
+SAM-Road 2024 https://github.com/htcr/sam_road
 
 
 Dataset：
-DeepGlobe Road Extraction Challenge
-https://competitions.codalab.org/competitions/18467#participate-get_data
 
-SpaceNet 3: Road Network Detection
-https://spacenet.ai/spacenet-roads-dataset/
+DeepGlobe Road Extraction Challenge https://competitions.codalab.org/competitions/18467#participate-get_data
 
-Roadtracer
-https://roadmaps.csail.mit.edu/roadtracer/
+SpaceNet 3: Road Network Detection https://spacenet.ai/spacenet-roads-dataset/
 
-Massachusetts Roads Dataset
-https://www.cs.toronto.edu/~vmnih/data/
+Roadtracer https://roadmaps.csail.mit.edu/roadtracer/
 
-LSRV: The Large-Scale Road Validation Dataset
-https://rsidea.whu.edu.cn/resource_LSRV_sharing.htm
+Massachusetts Roads Dataset https://www.cs.toronto.edu/~vmnih/data/
 
-CityScale
-https://github.com/songtaohe/Sat2Graph
+LSRV: The Large-Scale Road Validation Dataset https://rsidea.whu.edu.cn/resource_LSRV_sharing.htm
 
-CHN6-CUG
-https://github.com/CUG-URS/CHN6-CUG-Roads-Dataset
+CityScale https://github.com/songtaohe/Sat2Graph
 
-WHU-Road
-https://github.com/fightingMinty/WHU-road-dataset?tab=readme-ov-file
+CHN6-CUG https://github.com/CUG-URS/CHN6-CUG-Roads-Dataset
 
-GRSet
-https://github.com/xiaoyan07/GRNet_GRSet
+WHU-Road https://github.com/fightingMinty/WHU-road-dataset?tab=readme-ov-file
+
+GRSet https://github.com/xiaoyan07/GRNet_GRSet
 
 ### 4.Download
 
