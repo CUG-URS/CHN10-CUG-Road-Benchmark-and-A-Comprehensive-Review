@@ -124,7 +124,7 @@ Please cite this paper if you use this dataset:
 }
 ```
 ## 6.Contact
-If you have any problem in using the CHN10-CUG Roads Dataset, please contact: 1946675524@qq.com
+If you have any problem in using the CHN10-CUG Roads Dataset, please contact: pss@cug.edu.cn
 
 For any possible research collaboration, please contact Prof. Qiqi Zhu (zhuqq@cug.edu.cn).
 
