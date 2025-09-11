@@ -46,33 +46,6 @@ We collected typical areas of ten cities in China from [Google Earth](http://ear
 
 ### 3.Road review
 
-Dataset	Year	Annotation Type	Images	Resolution	Image width	Regions
-		Surface	Centerline	Graph				
-Massachusetts     (Mnih, 2013)
-2013	√	×	×	1171	1m	1500	Non-China
-Cheng’s Dataset (Cheng et al., 2017)
-2017	√	√	×	224	1.2m	≥600	-
-DeepGlobe         (Demir et al., 2018)
-2018	√	×	×	8570	0.5m	1024	Non-China
-RoadTracer       (Bastani et al., 2018)
-2018	×	√	√	300	0.6m	4096	Non-China
-Liu’s Dataset           (Liu et al., 2018)
-2019	√	√	×	3194	0.21m	512	Non-China
-CityScale                 (He et al., 2020a)
-2020	×	√	√	180	1m	2048	Non-China
-LRSNY                (Chen et al., 2021c)
-2021	√	×	×	1368	0.5m	1000	Non-China
-SpaceNet                 (Van Etten et al., 2018)
-2018	×	√	√	2780	0.3m	1300	1 cities in China
-GlobalRoadSet        (Lu et al., 2024)
-2024	×	√	×	47210	1m	1024	1 cities in China
-Global-Scale           (Yin et al., 2024)
-2024	×	√	√	3468	1m	2048	7 cities in China
-WHU road dataset (Zhou et al., 2020)
-2020	√	×	×	6828	0.8-2m	512	1 cities in China
-CHN6-CUG           (Zhu et al., 2021)
-2021	√	×	×	4511	0.5m	512	6 cities in China
-CHN10-CUG	2025	√	√	√	8020	0.5m	512	10 cities in China
 
 Code：
 
