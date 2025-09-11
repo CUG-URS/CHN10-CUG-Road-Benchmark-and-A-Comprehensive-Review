@@ -7,10 +7,15 @@ Version 1.0
 ## 1.Overview
 
 <img width="1061" height="537" alt="image" src="https://github.com/user-attachments/assets/5b2652af-bc7d-45ca-9f31-332687eb6a2f" />
+
 Fig. 1. Difficulties in road extraction from high resolution remote sensing imagery.
+
 <img width="1036" height="527" alt="image" src="https://github.com/user-attachments/assets/16a3787d-d627-45c4-803e-d0c842f80f77" />
+
 Fig. 2. CHN10-CUG: a high-resolution Chinese road dataset with richer annotations, greater intra-class diversity, and finer details.
+
 <img width="717" height="601" alt="image" src="https://github.com/user-attachments/assets/9b2f30bc-ffba-4dbc-96d2-c6b590f381b4" />
+
 Fig. 3. Urban distribution in CHN10-CUG Roads Dataset.
 
 
