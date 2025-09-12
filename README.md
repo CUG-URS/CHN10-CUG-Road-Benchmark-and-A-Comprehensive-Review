@@ -46,47 +46,32 @@ We collected typical areas of ten cities in China from [Google Earth](http://ear
 
 ### 3.Road review
 
-
-Code：
-
-Mmsegmentation https://github.com/open-mmlab/mmsegmentation
-
-DeepRoadMapper 2017 https://github.com/mitroadmaps/roadtracer/tree/master/deeproadmapper
-
-Roadtracer 2018 https://github.com/mitroadmaps/roadtracer
-
-D-LinkNet 2018 https://github.com/zlckanata/DeepGlobe-Road-Extraction-Challenge
-
-SIINet 2019 https://github.com/ErenTuring/SIINet
-
-Seg-Orientation 2019 https://github.com/anilbatra2185/road_connectivity
-
-Sat2Graph 2020 https://github.com/songtaohe/Sat2Graph
-
-BSNet 2020 https://github.com/astro-ck/Road-Extraction
-
-CoANet 2021 https://github.com/mj129/CoANet
-
-ScRoadExtractor 2021 https://github.com/weiyao1996/ScRoadExtractor
-
-DiResNet 2021 https://github.com/ggsDing/DiResNet
-
-SGCNNet 2021 https://github.com/tist0bsc/SGCN
-
-RNGDet 2022 https://github.com/TonyXuQAQ/RNGDetPlusPlus
-
-RNGDet++ 2023 https://github.com/TonyXuQAQ/RNGDetPlusPlus
-
-SemiRoadExNet 2023 https://github.com/hchen118/SemiRoadExNet
-
-MCMCNet 2024 https://github.com/zhouyiqingzz/MCMCNet
-
-OARENet 2024 https://github.com/WanderRainy/OARENet
-
-MSMDFF-Net 2024 https://github.com/wycloveinfall/MSMDFF-NET
-
-SAM-Road 2024 https://github.com/htcr/sam_road
-
+|Type            | Year | Methods              | Paper | Code                                                                                                            |
+|----------------|------|:---------------------|-------|:----------------------------------------------------------------------------------------------------------------|
+|Fully Supervised| 2017 | CASNet               | (https://doi.org/10.1109/TGRS.2017.2669341) | [Pytorch](https://github.com/CUG-URS/CHN10-CUG-Road-Benchmark-and-A-Comprehensive-Review)  
+|Fully Supervised| 2017 | DeepRoadMapper       | (https://openaccess.thecvf.com/content_ICCV_2017/papers/Mattyus_DeepRoadMapper_Extracting_Road_ICCV_2017_paper.pdf) | [Tensorflow](https://github.com/mitroadmaps/roadtracer/tree/master/deeproadmapper)     |
+|Fully Supervised| 2018 | D-LinkNet            | (https://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w4/Zhou_D-LinkNet_LinkNet_With_CVPR_2018_paper.pdf) | [Pytorch](https://github.com/zlckanata/DeepGlobe-Road-Extraction-Challenge)         |
+|Fully Supervised| 2018 | RoadCNN              | (https://roadmaps.csail.mit.edu/roadtracer.pdf) | [Tensorflow](https://github.com/mitroadmaps/roadtracer)                                                         |
+|Fully Supervised| 2019 | ImprovedConnectivity | (https://anilbatra2185.github.io/papers/RoadConnectivityCVPR2019.pdf) | [Pytorch](https://github.com/anilbatra2185/road_connectivity)                                                   |
+|Fully Supervised| 2019 | SIINet               | (https://doi.org/10.1016/j.isprsjprs.2019.10.001) | [Pytorch](https://github.com/ErenTuring/SIINet/tree/master?tab=readme-ov-file)                                                   |
+|Fully Supervised| 2020 | BSNet+Fusion         | (https://ieeexplore.ieee.org/document/9094008) | [Pytorch](https://github.com/astro-ck/Road-Extraction)                                                          |
+|Fully Supervised| 2021 | GAMSNet              | (https://doi.org/10.1016/j.isprsjprs.2021.03.008) | [Pytorch](https://github.com/CUG-URS/CHN10-CUG-Road-Benchmark-and-A-Comprehensive-Review)                                                          |
+|Fully Supervised| 2021 | CoANet               | (https://ieeexplore.ieee.org/document/9563125) | [Pytorch](https://github.com/mj129/CoANet)                                                                      |
+|Fully Supervised| 2021 | DiResNet             | (https://arxiv.org/pdf/2005.07232) | [Pytorch](https://github.com/ggsDing/DiResNet)                                                                      |
+|Fully Supervised| 2021 | SGCN                 | (https://doi.org/10.1109/TGRS.2021.3128033) | [Pytorch](https://github.com/tist0bsc/SGCN)                                                                      |
+|Fully Supervised| 2021 | GCB-Net              | (https://doi.org/10.1016/j.isprsjprs.2021.03.016) | [Pytorch](https://github.com/CUG-URS/CHN10-CUG-Road-Benchmark-and-A-Comprehensive-Review)                                                                      |
+|Fully Supervised| 2024 | MSMDFF-Net           | (https://ieeexplore.ieee.org/document/10477437) | [Pytorch](https://github.com/wycloveinfall/MSMDFF-NET)                                                          |
+|Fully Supervised| 2024 | OARENet              | (https://doi.org/10.1109/TGRS.2024.3387945) | [Pytorch](https://github.com/WanderRainy/OARENet)                                                          |
+|Weekly Supervised| 2021 | ScRoadExtractor      | (https://ieeexplore.ieee.org/document/9372390) | [Pytorch](https://github.com/weiyao1996/ScRoadExtractor)                                                        |
+|Semi Supervised  | 2023 | SemiRoadExNet        |  (https://www.sciencedirect.com/science/article/pii/S0924271623000722) | [Pytorch](https://github.com/hchen118/SemiRoadExNet)                                                            |
+|Semi Supervised  | 2024 | MCMCNet              |  (https://doi.org/10.1109/TGRS.2024.3426561) | [Pytorch](https://github.com/zhouyiqingzz/MCMCNet)                                                            |
+|Graph| 2018 | RoadTracer           | (https://roadmaps.csail.mit.edu/roadtracer.pdf) | [Tensorflow](https://github.com/mitroadmaps/roadtracer)                                                         |
+|Graph| 2020 | Sat2Graph            | (https://arxiv.org/pdf/2007.09547) | [Tensorflow](https://github.com/songtaohe/Sat2Graph)                                                            |
+|Graph| 2020 | VecRoad              | (https://openaccess.thecvf.com/content_CVPR_2020/papers/Tan_VecRoad_Point-Based_Iterative_Graph_Exploration_for_Road_Graphs_Extraction_CVPR_2020_paper.pdf) | [Pytorch](https://github.com/tansor/VecRoad) |
+|Graph| 2022 | RNGDet               | (https://ieeexplore.ieee.org/abstract/document/9810294) | [Pytorch](https://github.com/TonyXuQAQ/RNGDetPlusPlus)                                                          |
+|Graph| 2023 | RNGDet++             | (https://ieeexplore.ieee.org/abstract/document/10093124) | [Pytorch](https://github.com/TonyXuQAQ/RNGDetPlusPlus)                                                          |
+|Graph| 2024 | SAM-Road             | (https://openaccess.thecvf.com/content/CVPR2024W/SG2RL/papers/Hetang_Segment_Anything_Model_for_Road_Network_Graph_Extraction_CVPRW_2024_paper.pdf) | [Pytorch](https://github.com/htcr/sam_road)              |
+|Mmsegmentation| (https://github.com/open-mmlab/mmsegmentation) |
 
 | Datasets                                                                                   | Year    | Resolution (m/pixel)| Annotation Type         | Size (pixels)| Images(train/val/test) | Paper                                                                            |
 |:-------------------------------------------------------------------------------------------|:--------|---------------------|-------------------------|--------------|------------------------|----------------------------------------------------------------------------------|
