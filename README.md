@@ -71,7 +71,7 @@ We collected typical areas of ten cities in China from [Google Earth](http://ear
 |Graph| 2022 | RNGDet               | (https://ieeexplore.ieee.org/abstract/document/9810294) | [Pytorch](https://github.com/TonyXuQAQ/RNGDetPlusPlus)                                                          |
 |Graph| 2023 | RNGDet++             | (https://ieeexplore.ieee.org/abstract/document/10093124) | [Pytorch](https://github.com/TonyXuQAQ/RNGDetPlusPlus)                                                          |
 |Graph| 2024 | SAM-Road             | (https://openaccess.thecvf.com/content/CVPR2024W/SG2RL/papers/Hetang_Segment_Anything_Model_for_Road_Network_Graph_Extraction_CVPRW_2024_paper.pdf) | [Pytorch](https://github.com/htcr/sam_road)              |
-|Mmsegmentation| (https://github.com/open-mmlab/mmsegmentation) |
+|Mmsegmentation|  |             |   | (https://github.com/open-mmlab/mmsegmentation) |
 
 | Datasets                                                                                   | Year    | Resolution (m/pixel)| Annotation Type         | Size (pixels)| Images(train/val/test) | Paper                                                                            |
 |:-------------------------------------------------------------------------------------------|:--------|---------------------|-------------------------|--------------|------------------------|----------------------------------------------------------------------------------|
