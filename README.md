@@ -45,7 +45,7 @@ We collected typical areas of ten cities in China from [Google Earth](http://ear
 **Please note that we do not own the copyrights to these original satellite images. Their use is RESTRICTED to non-commercial research and educational purposes.**
 
 ### 3.Road review
-
+In this code framework, we have integrated mainstream fully supervised road extraction methods from 2017 to 2024. Based on the Dinknet base framework, the complete reproduction of all the aforementioned methods can be achieved. Meanwhile, we have also open-sourced the GCBNet network framework proposed in the paper *A Global Context-aware and Batch-independent Network for road extraction from VHR satellite imagery*; for specific implementation details, please refer to the code under the `networks/GCBNet` directory.
 |Type            | Year | Methods              | Paper | Code                                                                                                            |
 |----------------|------|:---------------------|-------|:----------------------------------------------------------------------------------------------------------------|
 |Fully Supervised| 2017 | CASNet               | (https://doi.org/10.1109/TGRS.2017.2669341) | [Pytorch](https://github.com/CUG-URS/CHN10-CUG-Road-Benchmark-and-A-Comprehensive-Review)  
