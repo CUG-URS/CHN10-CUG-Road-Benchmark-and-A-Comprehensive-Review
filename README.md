@@ -88,34 +88,20 @@ MSMDFF-Net 2024 https://github.com/wycloveinfall/MSMDFF-NET
 SAM-Road 2024 https://github.com/htcr/sam_road
 
 
-Dataset：
-
-| Dataset                                  |	 Years	|
-| Massachusetts Roads Dataset               | 2013	| https://www.cs.toronto.edu/~vmnih/data/
-| DeepGlobe Road                          | 2018	| https://competitions.codalab.org/competitions/18467#participate-get_data
-| Roadtracer	                              | 2018	| https://roadmaps.csail.mit.edu/roadtracer/
-| SpaceNet 3: Road Network Detection	       | 2018	| https://spacenet.ai/spacenet-roads-dataset/
-| WHU-Road		                          | 2020	| https://github.com/fightingMinty/WHU-road-dataset?tab=readme-ov-file
-| CityScale	                              | 2021	| https://github.com/songtaohe/Sat2Graph
-| CHN6-CUG	                              |	 2021	| https://github.com/CUG-URS/CHN6-CUG-Roads-Dataset
-| LSRV: The Large-Scale Road Validation Dataset	| 2021	| https://rsidea.whu.edu.cn/resource_LSRV_sharing.htm
-| GRSet	                                 | 2024	| https://github.com/xiaoyan07/GRNet_GRSet
-| Global-Scale	                         |	2024	| https://github.com/earth-insights/samroadplus
-| CHN10-CUG	                         |	2025	| https://github.com/CUG-URS/CHN10-CUG-Road-Benchmark-and-A-Comprehensive-Review
-| Datasets                                                                              | Year    | Resolution (m/pixel)| Buffer width (m) | Size (pixels) | Images(train/val/test) | Paper                                                                            |
-|:--------------------------------------------------------------------------------------|:--------|---------------------|------------------|--------------|------------------------|----------------------------------------------------------------------------------|
-| [Massachusetts](https://www.cs.toronto.edu/~vmnih/data/)                              | 2013    | 1                   | 7                | 1500×1500    | 1108/14/49             | [Paper](https://www.cs.toronto.edu/~vmnih/docs/Mnih_Volodymyr_PhD_Thesis.pdf)    |
-| [RoadTracer ](https://roadmaps.csail.mit.edu/roadtracer/)                             | 2018    | 0.6                 | 6                | 1024×1024    | 2880/-/1920            | [Paper](https://roadmaps.csail.mit.edu/roadtracer.pdf)                           |
-| [SpaceNet3](https://spacenet.ai/spacenet-roads-dataset/)                              | 2018    | 0.3                 | 2                | 1300×1300    | 2213/-/567             | [Paper](https://arxiv.org/pdf/1807.01232)                                        |
-| [DeepGlobe](https://competitions.codalab.org/competitions/18467#participate-get_data) | 2018    | 0.5                 | -                | 1024×1024    | 4696/-/1530            | [Paper](https://arxiv.org/pdf/1805.06561)                                        |
-| [CityScale](https://github.com/songtaohe/Sat2Graph)                                   | 2020    | 1                   | -                | 2048×2048    | 144/9/27               | [Paper](https://arxiv.org/pdf/2007.09547)                                        |
-| [CHN6-CUG](https://github.com/CUG-URS/CHN6-CUG-Roads-Dataset)                         | 2021    | 0.5                 | -                | 512×512      | 3608/-/903             | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271621000873) |
-| [MUNO21 ](https://favyen.com/muno21/)                                                 | 2021    | 1                   | -                | 11133~16520  | 80/-/11                | [Paper](https://favyen.com/muno21.pdf)                                           |
-| [LSRV](http://rsidea.whu.edu.cn/resource_LSRV_sharing.htm)                            | 2021    | 0.3~0.6             | -                | 16640~23552  | -/-/3                  | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271621000770) |
-| [GSRV](https://github.com/xiaoyan07/GRNet_GRSet)                                      | 2024    | 0.3~1.2             | -                | 1024~36,864  | -/-/5743               | [Paper](https://www.tandfonline.com/doi/full/10.1080/10095020.2024.2362760?src=) |
-| [GRSet](https://github.com/xiaoyan07/GRNet_GRSet)                                     | 2024    | 1                   | 5                | 1024×1024    | 47,210/-/-             | [Paper](https://www.tandfonline.com/doi/full/10.1080/10095020.2024.2362760?src=) |
-| [Global-Scale](https://github.com/earth-insights/samroadplus)                         | 2024    | 1                   | -                | 1024×1024    | 2375/339/624+130       | [Paper](https://arxiv.org/pdf/2411.16733)                                        |
-
+| Datasets                                                                                   | Year    | Resolution (m/pixel)| Buffer width (m) | Size (pixels) | Images(train/val/test) | Paper                                                                            |
+|:-------------------------------------------------------------------------------------------|:--------|---------------------|------------------|--------------|------------------------|----------------------------------------------------------------------------------|
+| [Massachusetts](https://www.cs.toronto.edu/~vmnih/data/)                                   | 2013    | 1                   | 7                | 1500×1500    | 1108/14/49             | [Paper](https://www.cs.toronto.edu/~vmnih/docs/Mnih_Volodymyr_PhD_Thesis.pdf)    |
+| [RoadTracer ](https://roadmaps.csail.mit.edu/roadtracer/)                                  | 2018    | 0.6                 | 6                | 1024×1024    | 2880/-/1920            | [Paper](https://roadmaps.csail.mit.edu/roadtracer.pdf)                           |
+| [SpaceNet 3: Road Network Detection](https://spacenet.ai/spacenet-roads-dataset/)          | 2018    | 0.3                 | 2                | 1300×1300    | 2213/-/567             | [Paper](https://arxiv.org/pdf/1807.01232)                                        |
+| [DeepGlobe](https://competitions.codalab.org/competitions/18467#participate-get_data)      | 2018    | 0.5                 | -                | 1024×1024    | 4696/-/1530            | [Paper](https://arxiv.org/pdf/1805.06561)                                        |
+| [CityScale](https://github.com/songtaohe/Sat2Graph)                                        | 2020    | 1                   | -                | 2048×2048    | 144/9/27               | [Paper](https://arxiv.org/pdf/2007.09547)                                        |
+| [WHU-Road](https://github.com/fightingMinty/WHU-road-dataset?tab=readme-ov-file)           | 2020    | 0.8~2.0             | -                | 512×512      | -/-/-                  | [Paper](https://doi.org/10.1016/j.isprsjprs.2020.08.019)                         |
+| [CHN6-CUG](https://github.com/CUG-URS/CHN6-CUG-Roads-Dataset)                              | 2021    | 0.5                 | -                | 512×512      | 3608/-/903             | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271621000873) |
+| [LSRV](http://rsidea.whu.edu.cn/resource_LSRV_sharing.htm)                                 | 2021    | 0.3~0.6             | -                | 16640~23552  | -/-/3                  | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271621000770) |
+| [GSRV](https://github.com/xiaoyan07/GRNet_GRSet)                                           | 2024    | 0.3~1.2             | -                | 1024~36,864  | -/-/5743               | [Paper](https://www.tandfonline.com/doi/full/10.1080/10095020.2024.2362760?src=) |
+| [GRSet](https://github.com/xiaoyan07/GRNet_GRSet)                                          | 2024    | 1                   | 5                | 1024×1024    | 47,210/-/-             | [Paper](https://www.tandfonline.com/doi/full/10.1080/10095020.2024.2362760?src=) |
+| [Global-Scale](https://github.com/earth-insights/samroadplus)                              | 2024    | 1                   | -                | 1024×1024    | 2375/339/624+130       | [Paper](https://arxiv.org/pdf/2411.16733)                                        |
+| [CHN10-CUG](https://github.com/CUG-URS/CHN10-CUG-Road-Benchmark-and-A-Comprehensive-Review)| 2025    | 0.5                 | -                | 512×512      | 6015/962/1043          | [Paper]                                        |
 
 ### 4.Download
 
