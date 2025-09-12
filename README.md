@@ -88,8 +88,8 @@ MSMDFF-Net 2024 https://github.com/wycloveinfall/MSMDFF-NET
 SAM-Road 2024 https://github.com/htcr/sam_road
 
 
-| Datasets                                                                                   | Year    | Resolution (m/pixel)| Annotation Type  | Size (pixels) | Images(train/val/test) | Paper                                                                            |
-|:-------------------------------------------------------------------------------------------|:--------|---------------------|------------------|--------------|------------------------|----------------------------------------------------------------------------------|
+| Datasets                                                                                   | Year    | Resolution (m/pixel)| Annotation Type         | Size (pixels)| Images(train/val/test) | Paper                                                                            |
+|:-------------------------------------------------------------------------------------------|:--------|---------------------|-------------------------|--------------|------------------------|----------------------------------------------------------------------------------|
 | [Massachusetts](https://www.cs.toronto.edu/~vmnih/data/)                                   | 2013    | 1                   | Surface                 | 1500×1500    | 1108/14/49             | [Paper](https://www.cs.toronto.edu/~vmnih/docs/Mnih_Volodymyr_PhD_Thesis.pdf)    |
 | [RoadTracer ](https://roadmaps.csail.mit.edu/roadtracer/)                                  | 2018    | 0.6                 | Centerline	Graph        | 1024×1024    | 2880/-/1920            | [Paper](https://roadmaps.csail.mit.edu/roadtracer.pdf)                           |
 | [SpaceNet 3: Road Network Detection](https://spacenet.ai/spacenet-roads-dataset/)          | 2018    | 0.3                 | Centerline	Graph        | 1300×1300    | 2213/-/567             | [Paper](https://arxiv.org/pdf/1807.01232)                                        |
@@ -101,7 +101,7 @@ SAM-Road 2024 https://github.com/htcr/sam_road
 | [GSRV](https://github.com/xiaoyan07/GRNet_GRSet)                                           | 2024    | 0.3~1.2             | Surface                 | 1024~36,864  | -/-/5743               | [Paper](https://www.tandfonline.com/doi/full/10.1080/10095020.2024.2362760?src=) |
 | [GRSet](https://github.com/xiaoyan07/GRNet_GRSet)                                          | 2024    | 1                   | Centerline              | 1024×1024    | 47,210/-/-             | [Paper](https://www.tandfonline.com/doi/full/10.1080/10095020.2024.2362760?src=) |
 | [Global-Scale](https://github.com/earth-insights/samroadplus)                              | 2024    | 1                   | Centerline	Graph        | 1024×1024    | 2375/339/624+130       | [Paper](https://arxiv.org/pdf/2411.16733)                                        |
-| [CHN10-CUG](https://github.com/CUG-URS/CHN10-CUG-Road-Benchmark-and-A-Comprehensive-Review)| 2025    | 0.5                 | Surface Centerline	Graph| 512×512      | 6015/962/1043          | [Paper]                                        |
+| [CHN10-CUG](https://github.com/CUG-URS/CHN10-CUG-Road-Benchmark-and-A-Comprehensive-Review)| 2025    | 0.5                 | Surface Centerline	Graph| 512×512      | 6015/962/1043          | [Paper]                                                                          |
 
 ### 4.Download
 
