@@ -90,28 +90,18 @@ SAM-Road 2024 https://github.com/htcr/sam_road
 
 Dataset：
 
-Dataset	Years	
-Massachusetts Roads Dataset	2013	https://www.cs.toronto.edu/~vmnih/data/
-
-DeepGlobe Road	2018	https://competitions.codalab.org/competitions/18467#participate-get_data
-
-Roadtracer	2018	https://roadmaps.csail.mit.edu/roadtracer/
-
-SpaceNet 3: Road Network Detection	2018	https://spacenet.ai/spacenet-roads-dataset/
-
-WHU-Road	2020	https://github.com/fightingMinty/WHU-road-dataset?tab=readme-ov-file
-
-CityScale	2021	https://github.com/songtaohe/Sat2Graph
-
-CHN6-CUG	2021	https://github.com/CUG-URS/CHN6-CUG-Roads-Dataset
-
-LSRV: The Large-Scale Road Validation Dataset	2021	https://rsidea.whu.edu.cn/resource_LSRV_sharing.htm
-
-GRSet	2024	https://github.com/xiaoyan07/GRNet_GRSet
-
-Global-Scale	2024	https://github.com/earth-insights/samroadplus
-
-CHN10-CUG	2025	https://github.com/CUG-URS/CHN10-CUG-Road-Benchmark-and-A-Comprehensive-Review
+| Dataset                                  |	 Years	|
+| Massachusetts Roads Dataset               | 2013	| https://www.cs.toronto.edu/~vmnih/data/
+| DeepGlobe Road                          | 2018	| https://competitions.codalab.org/competitions/18467#participate-get_data
+| Roadtracer	                              | 2018	| https://roadmaps.csail.mit.edu/roadtracer/
+| SpaceNet 3: Road Network Detection	       | 2018	| https://spacenet.ai/spacenet-roads-dataset/
+| WHU-Road		                          | 2020	| https://github.com/fightingMinty/WHU-road-dataset?tab=readme-ov-file
+| CityScale	                              | 2021	| https://github.com/songtaohe/Sat2Graph
+| CHN6-CUG	                              |	 2021	| https://github.com/CUG-URS/CHN6-CUG-Roads-Dataset
+| LSRV: The Large-Scale Road Validation Dataset	| 2021	| https://rsidea.whu.edu.cn/resource_LSRV_sharing.htm
+| GRSet	                                 | 2024	| https://github.com/xiaoyan07/GRNet_GRSet
+| Global-Scale	                         |	2024	| https://github.com/earth-insights/samroadplus
+| CHN10-CUG	                         |	2025	| https://github.com/CUG-URS/CHN10-CUG-Road-Benchmark-and-A-Comprehensive-Review
 
 
 
