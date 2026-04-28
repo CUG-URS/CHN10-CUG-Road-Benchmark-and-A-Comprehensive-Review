@@ -71,8 +71,9 @@ In this code framework, we have integrated mainstream fully supervised road extr
 |Fully Supervised| 2024 | TransRoadNet         | (https://ieeexplore.ieee.org/document/9766116) | [Pytorch](https://github.com/CVer-Yang/TransRoadNet)                                                          |
 |Fully Supervised| 2024 | OARENet              | (https://doi.org/10.1109/TGRS.2024.3387945) | [Pytorch](https://github.com/WanderRainy/OARENet)                                                          |
 |Fully Supervised| 2024 | BiReNet              | (https://link.springer.com/chapter/10.1007/978-981-97-8493-6_28) | [Pytorch](https://github.com/LPeng625/BiReNet)                                                          |
-|Fully Supervised| 2024 | StripUnet              | (https://ieeexplore.ieee.org/abstract/document/10508493) | [Pytorch](https://github.com/XianZhi-Ma/StripUnet/blob/main/stripunet.py)                                                          |
-|Fully Supervised| 2024 | CGCNet              | (https://ieeexplore.ieee.org/document/11097289) | [Pytorch](https://github.com/LPeng625/CGCNet)                                                          |
+|Fully Supervised| 2024 | StripUnet            | (https://ieeexplore.ieee.org/abstract/document/10508493) | [Pytorch](https://github.com/XianZhi-Ma/StripUnet/blob/main/stripunet.py)                                                          |
+|Fully Supervised| 2024 | CGCNet               | (https://ieeexplore.ieee.org/document/11097289) | [Pytorch](https://github.com/LPeng625/CGCNet)                                                          |
+|Fully Supervised| 2026 | WeavingUnet          | (https://www.sciencedirect.com/science/article/pii/S1569843225006843) | [Pytorch](https://github.com/XianZhi-Ma/WeavingUnet)                                                          |
 |Weekly Supervised| 2021 | ScRoadExtractor      | (https://ieeexplore.ieee.org/document/9372390) | [Pytorch](https://github.com/weiyao1996/ScRoadExtractor)                                                        |
 |Semi Supervised  | 2023 | SemiRoadExNet        |  (https://www.sciencedirect.com/science/article/pii/S0924271623000722) | [Pytorch](https://github.com/hchen118/SemiRoadExNet)                                                            |
 |Semi Supervised  | 2024 | MCMCNet              |  (https://doi.org/10.1109/TGRS.2024.3426561) | [Pytorch](https://github.com/zhouyiqingzz/MCMCNet)                                                            |
@@ -82,6 +83,7 @@ In this code framework, we have integrated mainstream fully supervised road extr
 |Graph| 2022 | RNGDet               | (https://ieeexplore.ieee.org/abstract/document/9810294) | [Pytorch](https://github.com/TonyXuQAQ/RNGDetPlusPlus)                                                          |
 |Graph| 2023 | RNGDet++             | (https://ieeexplore.ieee.org/abstract/document/10093124) | [Pytorch](https://github.com/TonyXuQAQ/RNGDetPlusPlus)                                                          |
 |Graph| 2024 | SAM-Road             | (https://openaccess.thecvf.com/content/CVPR2024W/SG2RL/papers/Hetang_Segment_Anything_Model_for_Road_Network_Graph_Extraction_CVPRW_2024_paper.pdf) | [Pytorch](https://github.com/htcr/sam_road)              |
+|Graph| 2025 | MagRoad             | (https://arxiv.org/pdf/2512.10416) | [Pytorch](https://github.com/xiaofei-guan/MaGRoad)              |
 |Mmsegmentation|  |             |   | (https://github.com/open-mmlab/mmsegmentation) |
 
 | Datasets                                                                                   | Year    | Resolution (m/pixel)| Annotation Type         | Size (pixels)| Images(train/val/test) | Paper                                                                            |
