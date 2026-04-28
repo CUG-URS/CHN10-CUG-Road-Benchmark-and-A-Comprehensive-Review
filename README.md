@@ -100,15 +100,7 @@ Download link:
 Please cite this paper if you use this dataset:
 
 ```
-@article{zhu2021global,
-  title={A Global Context-aware and Batch-independent Network for road extraction from VHR satellite imagery},
-  author={Zhu, Qiqi and Zhang, Yanan and Wang, Lizeng and Zhong, Yanfei and Guan, Qingfeng and Lu, Xiaoyan and Zhang, Liangpei and Li, Deren},
-  journal={ISPRS Journal of Photogrammetry and Remote Sensing},
-  volume={175},
-  pages={353--365},
-  year={2021},
-  publisher={Elsevier}
-}
+
 ```
 ## 6.Contact
 If you have any problem in using the CHN10-CUG Roads Dataset, please contact: pss@cug.edu.cn
