@@ -22,6 +22,11 @@ from networks.OARENet.testNet import SwinT_OAM
 from networks.roadcnn.roadcnn import Model as roadcnn
 from networks.SGCN.SGCNNet import SGCN_res50
 from networks.SIIS_NET.SIIS_NET import Deeplab_SIIS
+from networks.WeavingUnet import WeavingUnet
+from networks.TransRoadNet import TransRoad
+from networks.StripUnet import StripUnet
+from networks.CGCNet import CGCNet
+from networks.BiReNet import BiReNet34
 
 BATCHSIZE_PER_CARD = 32
 
