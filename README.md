@@ -6,22 +6,25 @@ Version 1.0
 
 ## 1.Overview
 
-A	 
-B	 	C	 
-D	 	E	 
-Fig. 1. (A) Difficulties in road extraction from high resolution remote sensing imagery. (B) Keyword cloud distribution in the field of road extraction from 1982 to 2024. (C) The 15 most frequently occurring keywords in road extraction papers and the year of their first appearance. (D) Annual publication and citation distribution of deep learning road extraction literature. (E) Top ten highly cited papers on deep learning road extraction and annual citation distribution, as of January 15, 2026.
-
+<img width="1024" height="520" alt="image" src="https://github.com/user-attachments/assets/3fd4661c-7f75-4e5d-a392-9871a2925649" />
 
 Fig. 1. Difficulties in road extraction from high resolution remote sensing imagery.
 
-
+<img width="1004" height="514" alt="image" src="https://github.com/user-attachments/assets/e483dbe2-0a1a-4dda-96c8-31cd43c34338" />
 
 Fig. 2. CHN10-CUG: a high-resolution Chinese road dataset with richer annotations, greater intra-class diversity, and finer details.
 
-
+<img width="1008" height="844" alt="image" src="https://github.com/user-attachments/assets/424a4f43-17a9-4f09-bbd1-eeefafe7e2c7" />
 
 Fig. 3. Urban distribution in CHN10-CUG Roads Dataset.
 
+<img width="1022" height="613" alt="image" src="https://github.com/user-attachments/assets/7da3cb7d-51d2-424b-aa14-f97e9e3dda59" />
+
+Fig. 4. Overview of deep learning road extraction methods.
+
+<img width="1022" height="849" alt="image" src="https://github.com/user-attachments/assets/dc980a35-72c8-496c-96d1-0aed6cdc4a6b" />
+
+Fig. 5. Representative paradigms, including (a) Pixel Segmentation, (b) Graph Extraction, (c) Multi-task Learning, (d)-(e) Low-label Driven Learning and (f) Foundation Models..
 
 ## 2.Dataset
 
@@ -64,7 +67,8 @@ In this code framework, we have integrated mainstream fully supervised road extr
 |Fully Supervised| 2021 | DiResNet             | (https://arxiv.org/pdf/2005.07232) | [Pytorch](https://github.com/ggsDing/DiResNet)                                                                      |
 |Fully Supervised| 2021 | SGCN                 | (https://doi.org/10.1109/TGRS.2021.3128033) | [Pytorch](https://github.com/tist0bsc/SGCN)                                                                      |
 |Fully Supervised| 2021 | GCB-Net              | (https://doi.org/10.1016/j.isprsjprs.2021.03.016) | [Pytorch](https://github.com/CUG-URS/CHN10-CUG-Road-Benchmark-and-A-Comprehensive-Review)                                                                      |
-|Fully Supervised| 2024 | MSMDFF-Net           | (https://ieeexplore.ieee.org/document/10477437) | [Pytorch](https://github.com/wycloveinfall/MSMDFF-NET)                                                          |
+|Fully Supervised| 2022 | MSMDFF-Net           | (https://ieeexplore.ieee.org/document/10477437) | [Pytorch](https://github.com/wycloveinfall/MSMDFF-NET)                                                          |
+|Fully Supervised| 2024 | TransRoadNet         | (https://ieeexplore.ieee.org/document/9766116) | [Pytorch]([https://github.com/wycloveinfall/MSMDFF-NET](https://github.com/CVer-Yang/TransRoadNet))                                                          |
 |Fully Supervised| 2024 | OARENet              | (https://doi.org/10.1109/TGRS.2024.3387945) | [Pytorch](https://github.com/WanderRainy/OARENet)                                                          |
 |Weekly Supervised| 2021 | ScRoadExtractor      | (https://ieeexplore.ieee.org/document/9372390) | [Pytorch](https://github.com/weiyao1996/ScRoadExtractor)                                                        |
 |Semi Supervised  | 2023 | SemiRoadExNet        |  (https://www.sciencedirect.com/science/article/pii/S0924271623000722) | [Pytorch](https://github.com/hchen118/SemiRoadExNet)                                                            |
@@ -90,7 +94,7 @@ In this code framework, we have integrated mainstream fully supervised road extr
 | [GSRV](https://github.com/xiaoyan07/GRNet_GRSet)                                           | 2024    | 0.3~1.2             | Surface                 | 1024~36,864  | -/-/5743               | [Paper](https://www.tandfonline.com/doi/full/10.1080/10095020.2024.2362760?src=) |
 | [GRSet](https://github.com/xiaoyan07/GRNet_GRSet)                                          | 2024    | 1                   | Centerline              | 1024×1024    | 47,210/-/-             | [Paper](https://www.tandfonline.com/doi/full/10.1080/10095020.2024.2362760?src=) |
 | [Global-Scale](https://github.com/earth-insights/samroadplus)                              | 2024    | 1                   | Centerline	Graph        | 1024×1024    | 2375/339/624+130       | [Paper](https://arxiv.org/pdf/2411.16733)                                        |
-| [CHN10-CUG](https://github.com/CUG-URS/CHN10-CUG-Road-Benchmark-and-A-Comprehensive-Review)| 2025    | 0.5                 | Surface Centerline	Graph| 512×512      | 6015/962/1043          | [Paper]                                                                          |
+| [CHN10-CUG](https://github.com/CUG-URS/CHN10-CUG-Road-Benchmark-and-A-Comprehensive-Review)| 2026    | 0.5                 | Surface Centerline	Graph| 512×512      | 6015/962/1043          | [Paper]                                                                          |
 
 ### 4.Download
 
